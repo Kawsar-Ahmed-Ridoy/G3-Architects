@@ -64,6 +64,52 @@ nav h2{
     padding: 25px 0px;
 }
 /* header end */
+/* features start */
+.features{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin: 60px 0px;
+}
+.features-images{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.features-images img{
+    width: 40%;
+}
+.features-text{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.features-text>h3{
+    font-size: 30px;
+}
+.quick-list{
+    color: gray;
+}
+.featur{
+    color: #FF900E;
+}
+.features-text p {
+    margin: 20px 0px;
+    color: gray;
+}
+.features-text button{
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    background: #FF900E;
+    color: white;
+}
+/* features end */
 @media screen and (max-width:576px){
     .container{
         width: 90%;
@@ -93,4 +139,19 @@ nav h2{
         width: 100%;
     }
     /* header end */
+    /* features start */
+    .features{
+        flex-direction: column;
+    }
+    .features-images{
+        width: 100%;
+    }
+    .features-images img{
+        width: 100%;
+    }
+    .features-text{
+        width: 100%;
+        margin: 20px 0px;
+    }
+    /* features end */
 }
