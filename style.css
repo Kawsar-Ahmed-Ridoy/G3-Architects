@@ -161,6 +161,7 @@ nav h2{
 .btn h3{
     font-size: 30px;
 }
+/* enjoy end */
 /* about start  */
 .about h3{
     text-align: center;
@@ -171,7 +172,35 @@ nav h2{
     margin: 30px 0px;
 }
 /* about end */
-/* enjoy end */
+/* some facts start  */
+.some-facts h3{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.some-facts p{
+    color: gray;
+    margin: 20px 0px;
+}
+.some-facts-banner{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.banner{
+    width: 150px;
+    border: 1px solid #FF900E;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+.banner h4{
+    font-size: 30px;
+    margin: 5px 0px;
+}
+.banner span{
+    color: gray;
+}
+/* some facts end */
 @media screen and (max-width:576px){
     .container{
         width: 90%;
@@ -242,4 +271,14 @@ nav h2{
         margin-top: 170px;
     }
     /* about end */
+    /* some facts start */
+    .some-facts-banner{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner{
+        width: 90%;
+        margin: auto;
+    }
+    /* some facts end */
 }
